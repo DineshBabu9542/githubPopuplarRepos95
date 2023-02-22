@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.name-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #e73959;
+}
+
+.forks-con {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  display: flex;
+}
+.star-con {
+  display: flex;
+}
+
+.list-items {
+  margin-right: 20px;
+  margin-top: 30px;
+  background-color: #f8f8ff;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.name-and-img-items {
+  text-align: center;
+}
+
+.img-items {
+  height: 60px;
+  width: 60px;
+}
+
+.span-con {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  color: #1e293b;
+  margin-left: 8px;
+}
+
+.count-img {
+  height: 12px;
+  width: 12px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-items {
+  }
+}

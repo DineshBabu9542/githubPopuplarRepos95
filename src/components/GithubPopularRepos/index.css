@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.pop-heading {
+  font-family: 'Lobster';
+  font-weight: bold;
+  color: #0f172a;
+  font-size: 42px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.repos-items-un-order-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.un-order-list {
+  list-style-type: none;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .pop-heading {
+    font-size: 30px;
+  }
+}
